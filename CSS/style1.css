@@ -1,0 +1,16 @@
+
+.centerscreen{float: none; margin: 5%; height: 80%; width: 90%; position: fixed;}
+
+@font-face {
+    font-family: PixelFont;
+    src: url(../Fonts/PublicPixel-z84yD.ttf);
+  }
+#title{font-family: PixelFont; float:left; 
+    text-overflow: ellipsis;position:absolute;
+     top: 20%; left: 3%; font-size: 30px;}
+.button1{
+    background-color: black; border-radius: 10px; width: 20%; height: 10%;
+    min-width: 200px; min-height: 50px;
+    color: white; font-family: PixelFont;
+    font-size: 100%; text-overflow: ellipsis;
+}
